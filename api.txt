@@ -1,0 +1,4 @@
+apiurl==https://api.themoviedb.org/3/movie/550?api_key=73c807ca58d4a7afa37e21cb44295dd1
+
+// Query we are using to fetch movie
+https://api.themoviedb.org/3/search/movie?api_key=73c807ca58d4a7afa37e21cb44295dd1&query=Jack+Reacher
