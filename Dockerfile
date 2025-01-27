@@ -1,10 +1,14 @@
-From node:16-alpine
+FROM node:16-alpine
 
 WORKDIR /app
 
-COPY . .
+COPY package* .
 
 RUN npm install
+
+COPY . .
+
+
 
 EXPOSE 4000
 
