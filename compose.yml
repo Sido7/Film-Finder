@@ -1,0 +1,19 @@
+services:
+ random:
+     build: .
+     container_name : "myapp"
+     ports: 
+      - "3000:4000"
+#  mysql: 
+#      image: "mysql:5.7"
+#      container_name: "newdb"
+#      environment:
+#        - MYSQL_ROOT_PASSWORD=root
+#        - MYSQL_DATABASE=changes
+#      ports:
+#         - "3010:3306"
+#      volumes:  
+#         - db:/var/lib/mysql
+
+volumes:
+  db:
