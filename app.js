@@ -25,10 +25,10 @@ app.get("/results", (req, res) => {
   );
 });
 
-app.get("/search", (req, res) => {
+app.get("/", (req, res) => {
   res.render("form");
 });
 
 app.listen(4000, () => {
-  console.log("listening to port 3000");
+  console.log("listening to port 4000");
 });
